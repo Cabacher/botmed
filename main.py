@@ -5,7 +5,7 @@ from telegram.ext import (
     Application, CommandHandler, MessageHandler, CallbackQueryHandler,
     filters, ContextTypes, ConversationHandler
 )
-//продавцы впнов хуесосы
+#продавцы впнов хуесосы
 TOKEN: Final = os.getenv('API_TOKEN')
 ADMIN_ID: Final = os.getenv('ADMIN_ID')
 
